@@ -22,7 +22,7 @@ be reviewing how tables work and how to make our own.
 - Learn the basics of HTML table elements
 - Practice table creation from scratch
 
-## `<table> </table>`
+### `<table> </table>`
 
 **Remember to use `httpserver` to live test your webpage**
 
