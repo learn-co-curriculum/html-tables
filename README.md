@@ -1,6 +1,6 @@
 # HTML Tables
 
-## Introduction
+## Problem Statement
 
 In HTML, we can create lists of related content using unordered and ordered
 lists, and they will display line by line in the order we put them in. Sometimes
@@ -22,9 +22,7 @@ be reviewing how tables work and how to make our own.
 - Learn the basics of HTML table elements
 - Practice table creation from scratch
 
-### `<table> </table>`
-
-**Remember to use `httpserver` to live test your webpage**
+### The `<table>` Tag
 
 The first thing we need in order to create a table is to write opening and
 closing `<table>` tags.
@@ -42,7 +40,7 @@ create individual cells, as well as headers to label what each column is for.
 In HTML, we define these table components using individual elements that we nest
 inside our `table` tags.
 
-### `<tr> </tr>`
+### `<tr>`, The Table Row Tag
 
 It's important to note: order really matters when building a table in HTML!
 We're trying to display a two-dimensional table, but HTML is interpreted _line
@@ -67,7 +65,7 @@ headers, setting up the rows it would look like this:
 
 Any content we want in a row would go inside that particular `<tr>`.
 
-### `<th> </th>`
+### `<th>`, The Table Header Tag
 
 Tables generally start with a row of headers to label each column, so the first
 `tr` tag we write will be dedicated to these headers.
@@ -98,7 +96,7 @@ lined up _left to right_.
 
 This first row is almost always the only place where we use the `th` tag.
 
-### `<td> </td>`
+### `<td>`, The Table _Data_ Tag
 
 In the second row, we can start putting in our data. Here, instead of using the
 _table header_ tag, we want to use the _table data_ tag, `<td>`, which will
